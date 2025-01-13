@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>get-footer: Footer Test</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container py-4">
+    <h1 class="display-4 mb-4">get-footer</h1>
+    <h2 class="mb-4">Footer Test Page</h2>
+    <p><a href="./index.html">Back to Index</a></p>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h4 class="mb-0">Modern Template (Express)</h4>
+      </div>
+      <div class="card-body">
+        <div data-get-footer="express, modern" class="alert alert-secondary">Loading...</div>
+        <p class="mb-0">Case: Modern template style for Express</p>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h4 class="mb-0">Classic Template (Lodash)</h4>
+      </div>
+      <div class="card-body">
+        <div data-get-footer="lodash, classic" class="alert alert-secondary">Loading...</div>
+        <p class="mb-0">Case: Classic copyright style for Lodash</p>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h4 class="mb-0">Minimal Template (Chalk)</h4>
+      </div>
+      <div class="card-body">
+        <div data-get-footer="chalk, minimal" class="alert alert-secondary">Loading...</div>
+        <p class="mb-0">Case: Minimal style for Chalk</p>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h4 class="mb-0">Boxed Template (Axios)</h4>
+      </div>
+      <div class="card-body">
+        <div data-get-footer="axios, boxed" class="alert alert-secondary">Loading...</div>
+        <p class="mb-0">Case: Boxed style with emoji for Axios</p>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h4 class="mb-0">Extended Template (Moment)</h4>
+      </div>
+      <div class="card-body">
+        <div data-get-footer="moment, extended" class="alert alert-secondary">Loading...</div>
+        <p class="mb-0">Case: Extended with last update for Moment</p>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h4 class="mb-0">Corporate Template (Babel)</h4>
+      </div>
+      <div class="card-body">
+        <div data-get-footer="@babel/core, corporate" class="alert alert-secondary">Loading...</div>
+        <p class="mb-0">Case: Corporate style for Babel</p>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h4 class="mb-0">Full Template (React)</h4>
+      </div>
+      <div class="card-body">
+        <div data-get-footer="react, full" class="alert alert-secondary">Loading...</div>
+        <p class="mb-0">Case: Full information display for React</p>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h4 class="mb-0">Custom Format (Webpack)</h4>
+      </div>
+      <div class="card-body">
+        <div data-get-footer="webpack,,{ <a href='%npmURL'>%nameM</a> %copy %year | Version: %version | Updated: %lastUpdate | Downloads: %totalDownloads }" class="alert alert-secondary">Loading...</div>
+        <p class="mb-0">Case: Custom format with new variables for Webpack</p>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h4 class="mb-0">New Format Style (Vue)</h4>
+      </div>
+      <div class="card-body">
+        <div data-get-footer="vue, { <a href='%npmURL'>%name</a> %copy %year | Version: %version | Updated: %lastUpdate | Downloads: %totalDownloads }" class="alert alert-secondary">Loading...</div>
+        <p class="mb-0">Case: New format style with single comma for Vue</p>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        <h4 class="mb-0">Custom Target (Jest)</h4>
+      </div>
+      <div class="card-body">
+        <div id="custom-footer" class="alert alert-secondary">Loading...</div>
+        <div data-get-footer="jest, #custom-footer, modern"></div>
+        <p class="mb-0">Case: Custom target element for Jest</p>
+      </div>
+    </div>
+
+    <footer class="footer text-center py-3 border-top">
+      <div data-get-footer="gulp, minimal"></div>
+    </footer>
+  </div>
+  <!-- Script -->
+  <script src="./index.js"></script>
+  <!-- Vendors -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
